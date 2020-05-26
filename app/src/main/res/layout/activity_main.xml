@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/linearLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	tools:context=".MainActivity">
+
+	<info.hoang8f.widget.FButton
+		android:id="@+id/loCKey"
+		style="@style/KeyStyles"
+		android:layout_marginLeft="1dp"
+		android:layout_marginRight="1dp"
+		android:onClick="playLoCKey"
+		android:text="@string/c"
+		app:fButtonColor="@color/fbutton_color_wisteria" />
+
+	<info.hoang8f.widget.FButton
+		android:id="@+id/dKey"
+		style="@style/KeyStyles"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:onClick="playDKey"
+		android:text="@string/d"
+		app:fButtonColor="@color/fbutton_default_shadow_color" />
+
+	<info.hoang8f.widget.FButton
+		android:id="@+id/eKey"
+		style="@style/KeyStyles"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:onClick="playEKey"
+		android:text="@string/e"
+		app:fButtonColor="@color/fbutton_color_turquoise" />
+
+
+	<info.hoang8f.widget.FButton
+		android:id="@+id/fkey"
+		style="@style/KeyStyles"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:onClick="playFKey"
+		android:text="@string/f"
+		app:fButtonColor="@color/fbutton_color_emerald" />
+
+	<info.hoang8f.widget.FButton
+		android:id="@+id/gKey"
+		style="@style/KeyStyles"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:onClick="playGKey"
+		android:text="@string/g"
+		app:fButtonColor="@color/fbutton_color_sun_flower" />
+
+	<info.hoang8f.widget.FButton
+		android:id="@+id/aKey"
+		style="@style/KeyStyles"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="25dp"
+		android:layout_marginRight="25dp"
+		android:onClick="playAKey"
+		android:text="@string/a"
+		app:fButtonColor="@color/fbutton_color_carrot" />
+
+	<info.hoang8f.widget.FButton
+		android:id="@+id/bKey"
+		style="@style/KeyStyles"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:onClick="playBKey"
+		android:text="@string/b"
+		app:fButtonColor="@color/fbutton_color_pumpkin" />
+
+	<info.hoang8f.widget.FButton
+		android:id="@+id/cKey"
+		style="@style/KeyStyles"
+		android:layout_marginLeft="35dp"
+		android:layout_marginRight="35dp"
+		android:onClick="playCKey"
+		android:text="@string/c"
+		app:fButtonColor="@color/fbutton_color_pomegranate" />
+</LinearLayout>
