@@ -31,7 +31,7 @@ public class Splash extends AppCompatActivity {
 				.withFullScreen()
 				.withTargetActivity(MainActivity.class)
 				.withBackgroundColor(sPColors)
-				.withLogo(R.drawable.ic_launcher_foreground)
+				.withLogo(R.drawable.simple_xylophone_logo)
 				.withSplashTimeOut(3000);
 		View easySplach = easySplashScreen.create();
 		setContentView(easySplach);
